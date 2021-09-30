@@ -1,0 +1,1372 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <!-- SITE META -->
+      <title>Xamin - Data Science &amp; Analytics HTML5 Template</title>
+      <!-- BOOTSTRAP STYLES -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min-4.css">
+      <!-- TEMPLATE STYLES -->
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+      <!-- TEMPLATE STYLES -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+   </head>
+   <body class="leftside">
+      <div id="loading">
+         <div id="loading-center">
+            <img src="images/loder.gif" alt="">
+         </div>
+      </div>
+      <!-- START SITE -->
+      <div id="wrapper">
+      <div class="row-offcanvas row-offcanvas-left">
+         <div id="sidebar-fix" class="sidebar-offcanvas">
+            <header id="vertical" class="header header-style-1">
+               <nav class="navbar navbar-default yamm p-0">
+                  <div class="container-f">
+                     <div class="navbar-header">
+                        <div class="site-logo text-center">
+                           <a class="navbar-brand" href="#">
+                           <img class="img-responsive p-4" src="images/logo-black.png" alt="">
+                           </a>
+                        </div>
+                     </div>
+                     <div id='cssmenu'>
+                        <ul>
+                           <li class='has-sub active'>
+                              <a href='#'><span>Introduction</span></a>
+                              <ul>
+                                 <li><a href='#basic-installation'><span>Basic Installation</span></a></li>
+                                 <li><a href='#folder-structure'><span>Folder Structure</span></a></li>
+                                 <li><a href='#xamin-structure'><span>xamin custom components structure</span></a></li>
+                                 <li><a href="#basic-css">CSS Structure</a></li>
+                                 <li><a href="#basic-favicon">For Favicon icon</a></li>
+                                 <li><a href="#basic-loading">For Page Loading Transitions</a></li>
+                                 <li><a href="#basic-logo">For Logo</a></li>
+                                 <li class='last'><a href='#basic-fonts'><span>For Changing Fonts</span></a></li>
+                              </ul>
+                           </li>
+                           <li class='has-sub'>
+                              <a href='#'><span>Helper classes</span></a>
+                              <ul>
+                                 <li><a href="#basic-padding">For section padding</a></li>
+                                 <li><a href="#basic-color">For Text color</a></li>
+                                 <li><a href="#basic-background">For Background color</a></li>
+                                 <li><a href="#basic-pattern">For Background Images and pattern</a></li>
+                                 <li><a href="#basic-overlay">For Background overlay</a></li>
+                                 <li class='last'><a href='#basic-separator'>For Separator</a></li>
+                              </ul>
+                           </li>
+                           <li><a href="#basic-components"><span>Bootstrap Components</span></a></li>
+                           <!--<li><a href="#basic-form"><span>For Contact Form</span></a></li>-->
+                           <li><a href="#basic-cards"><span>For Cards</span></a></li>
+                           <li><a href="#basic-header"><span>For Header</span></a></li>
+                           <li><a href="#basic-footer"><span>For Footer</span></a></li>
+                           <li class='last'><a href='#basic-source'><span>Source & Credits</span></a></li>
+                        </ul>
+                     </div>
+                     <!--/.nav-collapse -->
+                  </div>
+                  <!--/.container-fluid -->
+               </nav>
+               <!-- end nav -->
+            </header>
+            <!-- end header -->
+         </div>
+         <!-- end sidebar -->
+         <div id="main">
+            <section class="intro-banner" style="background: url('images/bg/01.jpg'); background-size: cover; background-repeat: no-repeat;">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <a href="#"><img src="images/logo_white.png" class="img-responsive" alt=""></a>
+                        <h1 class="text-white">USER GUIDE</h1>
+                        <p class="text-white">On behalf of iqonicthemes team, we would like to thank you for purchasing this item. Your support encourages us to build better items and continuously bring value to our products. This documentation file covers all the information needed to install and use this Template. You'll find everything you need to know to create a stunning and beautiful website in minutes.</p>
+                        <p class="text-white">Xamin is a HTML/CSS template based on <b>Bootstrap 4 framework</b>. This documentation will give you an understanding of how Xamin template is structured and guide you in performing common functions. If you require further assistance not covered in this documentation, please contact us in our Support Click here to contact us</p>
+                        <ul>
+                           <li>Created: 19 December 2019</li>
+                           <li>By: iQonicthemes</li>
+                           <li>Email: <a href="mailto:design@iqonicthemes.com">design@iqonicthemes.com</a></li>
+                           <li>HelpDesk: <a target="_blank" href="http://iqonicthemes.com/">http://iqonicthemes.com/contactus</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section id="basic-installation">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h2 class="heading-title">Basic Installation</h2>
+                        <p>Steps to be followed for getting started with the template:</p>
+                        <p>There are followings basics packages you should install before going further.</p>
+                        <ol>
+                            <li>Install NodeJs from <a href="https://nodejs.org/en">NodeJs Official Page</a> on your computer</li>
+                            <li>Open terminal or CMD and go the root directory of the template</li>
+                            <li>Run in terminal or CMD: <code>npm install</code></li>
+                            <li>To Run project on Local environment run: <code>npm run dev</code></li>
+                            <li>Then visit:  <code>http://localhost:3000</code></li>
+                            <li>To Deploy project on server
+                                <ol>
+                                    <li>Install PM 2 run : <code> sudo npm install pm2@latest -g </code> </li>
+                                    <li>Copy project in The root directory of the server </li>
+                                    <li>cd project_directory </li>
+                                    <li>Run command  <code>npm install</code> </li>
+                                    <li>Run command  <code>npm run build</code> </li>
+                                    <li>Run command  <code>pm2 start npm -- start</code> </li>
+                                    <li>For the detailed Information please refer this blog
+                                        <a href="https://tech.willandskill.se/nextjs-with-pm2-nginx-and-yarn-on-ubuntu-1804/">Setup a Next.js project with PM2,</a>
+                                    </li>
+                                </ol>
+                            </li>
+                            <li>Now that you have followed these steps your basic installation is complete and ready to flaunt your site to the world.</li>
+                        </ol>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section id="folder-structure">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h2 class="heading-title">Folder Structure</h2>
+                        <p>Here is the <strong>general structure of the template:</strong></p>
+                     </div>
+                  </div>
+                   <div class="row">
+                       <div class="col-md-12">
+                           <pre class="prettyprint lang-html linenums">
+xamin-react
+| - components
+   | - home-section
+     | - landing-page1                    
+     | - landing-page2                    
+     | - landing-page3                    
+     | - landing-page4                    
+     | - landing-page5                    
+     | - landing-page6                    
+     | - landing-page7                    
+     | - landing-page8                    
+     | - landing-page9                    
+     | - landing-page10                    
+     | - landing-page11                    
+   | - about-section
+     | -about-us1
+     | -about-us2
+   | - blog-section
+   | - ourcases-section
+   | - pages-section
+   | - service-section
+   | - xamin
+
+| - config
+| - constants
+| - layouts
+| - pages
+  - .gitignore
+  - favicon.ico
+  - next.config.js
+  - package.json
+  - package-lock.json
+  - README.md
+  - webpack.config.js</pre>
+                       </div>
+                   </div>
+               </div>
+            </section>
+             <section id="xamin-structure">
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-sm-12">
+                             <h2 class="heading-title">Xamin custom components structure</h2>
+                             <p>Here is the general structure of the xamin custom components:</p>
+                         </div>
+                     </div>
+                     <div class="row">
+                         <div class="col-md-12">
+                           <pre class="prettyprint lang-html linenums">
+&lt;!-- Xamin components --&gt;
+
+| - components
+    | - xamin
+        | - about                    
+            | - AboutStyle1
+            | - AboutStyle2
+        | - Accordion
+        | - Banner
+        | - cards
+            | - CardStyle1
+            | - CardStyle2
+            | - CardStyle3
+            | - CardStyle4
+            | - CardStyle5
+            | - CardStyle6
+            | - CardStyle7
+            | - CardStyle8
+            | - CardStyle9
+            | - CardStyle10
+            | - CardStyle11
+            | - CardStyle12
+            | - CardStyle13
+            | - CardStyle14
+            | - CardStyle15
+            | - CardStyle16
+            | - CardStyle17
+            | - CardStyle18
+            | - CardStyle19
+            | - PartnerCardStyle
+        | - Carousel
+        | - Carousel2
+        | - CheckBoxList
+        | - ContactUs
+        | - footerComponents
+            | - FooterAddress
+            | - FooterLinks
+            | - FooterLogo
+        | - HeaderStyle
+        | - Loader
+        | - MasonryItem
+        | - partials
+            | - footers
+               | - FooterMain
+        | - Portfolio
+        | - ProgressBar
+        | - ProgressStyle2
+        | - ReplyForm
+        | - RevoltionSlider
+        | - ScrollTop
+        | - SearchForm
+        | - sections
+            | - SectionLeftImage
+            | - SectionRightImage
+            | - SectionStyle1
+            | - SectionStyle2
+            | - SectionStyle3
+            | - SectionTitle
+        | - TestimonialCards                  
+        </pre>
+                         </div>
+                     </div>
+                 </div>
+             </section>
+            <section id="basic-css">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h2 class="heading-title">CSS Structure</h2>
+                        <p>Here is the <strong>general CSS structure of the template:</strong></p>
+                        <pre class="prettyprint lang-html linenums">
+&lt;!-- assets folder --&gt;
+| - xamin-react
+    | - static
+	    | - assets
+        	| - css
+                        </pre>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <section id="basic-favicon">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h2 class="heading-title">For Favicon icon</h2>
+                        <p>Favicon is an icon associated with the URL that is displayed at various places, such as in a browser’s address bar or next to the site name in a bookmark list.</p>
+                        <p>You can add a Favicon to your Website using the following code:</p>
+                        <pre class="prettyprint lang-html linenums">
+
+| - xamin-react
+    | - static
+          - favicon.ico
+
+    | - pages
+        | - landing-page1 // file content
+
+            import Head from 'next/head';
+
+            &lt;Head&gt;
+                &lt;title&gt;Xamin - Data Science & Analytics HTML5 Template&lt;/title&gt;
+                &lt;meta name="keywords" content="HTML5 Template" /&gt;
+                &lt;meta name="description" content="Xamin - Data Science & Analytics HTML5 Template" /&gt;
+                &lt;meta name="author" content="http://iqonic.design/" /&gt;
+                &lt;link rel="shortcut icon" href="./static/assets/images/favicon.ico" /&gt;
+            &lt;/Head&gt;
+                        </pre>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section id="basic-loading">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h2 class="heading-title">For Page Loading Transitions</h2>
+                        <p>Page Loading Transitions are enabled by default. If you wish to disable the page loading transition you can simply delete below section</p>
+                        <pre class="prettyprint lang-html linenums">
+
+| - xamin-react
+    | - components
+        | - xamin
+        	| - Loader
+            	- index.js // file content
+
+                import React from 'react'
+                const Index = () =&gt; (
+                    &lt;div id="loading"&gt;
+                        &lt;div id="loading-center"&gt;
+                            &lt;img src="./static/assets/images/loader.gif" alt="loader" /&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                );
+                
+                export default Index;
+                
+
+                        </pre>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section id="basic-logo">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h2 class="heading-title">For Logo</h2>
+                        
+
+                        <p>To import logo:</p>
+
+                        <pre class="prettyprint lang-html linenums">
+
+| - xamin-react
+    | - pages
+        | - landing-page1
+            | - index.js
+
+		import logoImg from '../../static/assets/images/logo-footer.png';
+
+		
+		// Import for the Xamin components...
+		import {HeaderStyle,Loader,ScrollTop,RevSlider} from '../../components/xamin';
+
+		//Usage
+
+		{/* header section*/}
+            &lt;HeaderStyle
+            className={"style-one"}
+            activeMenu ={this.state.activeMenu}
+            logoImg={logoImg}
+            buttonSection={(&lt;a className={"button bt-black pull-right"} href="#"&gt;Download&lt;/a&gt;)}
+            /&gt;
+
+                        </pre>
+
+                        <p>The Logo Container can be found in the Header Container:</p>
+
+                        <pre class="prettyprint lang-html linenums">
+
+| - xamin-react
+    | - components
+        | - xamin
+            | - HeaderStyle
+                - index.js
+
+      
+const HeaderStyle1 = (props) =&gt; {
+    return (
+        &lt;&gt;
+            &lt;header id="main-header" className={ props.className}&gt;
+                    &lt;div className="container-fluid sub-header"&gt;
+                        &lt;div className="row"&gt;
+                            &lt;div className="col-auto"&gt;
+                                &lt;div className="number-info"&gt;
+                                        &lt;ul className="list-inline"&gt;
+                                        &lt;li className="list-inline-item"&gt;
+                                            &lt;a href="mailto:support@iqnonicthemes.com"&gt; &lt;i className="fa fa-envelope"&gt;&lt;/i&gt;support@iqnonicthemes.com&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;li className="list-inline-item"&gt;
+                                            &lt;a href="tel:+0123456789"&gt; &lt;i className="fa fa-phone"&gt;&lt;/i&gt;+0123456789&lt;/a&gt;
+                                        &lt;/li&gt;
+                                        &lt;/ul&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div className="col-auto ml-auto sub-main"&gt;
+                        &lt;div className="social-icone"&gt;
+                            &lt;ul className="list-inline"&gt;
+                                &lt;li className="d-inline"&gt;
+                                    &lt;a href="#"&gt; &lt;i className="fa fa-facebook-f"&gt;&lt;/i&gt; &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li className="d-inline"&gt;
+                                    &lt;a href="#"&gt; &lt;i className="fa fa-twitter"&gt;&lt;/i&gt; &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li className="d-inline"&gt;
+                                    &lt;a href="#"&gt; &lt;i className="fa fa-instagram"&gt;&lt;/i&gt; &lt;/a&gt;
+                                &lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;div className="container-fluid main-header"&gt;
+                    &lt;div className="row"&gt;
+                        &lt;div className="col-sm-12"&gt;
+                            &lt;nav className="navbar navbar-expand-lg navbar-light"&gt;
+                                
+                                &lt;a className="navbar-brand" href="#"&gt;
+                                    &lt;img className="img-fluid logo" id={ props.styledLogo !== undefined &amp;&amp; props.styledLogo ? 'logo_img' : 'new_image' } src={ props.logoImg } alt="#" /&gt;
+                                &lt;/a&gt;
+                                &lt;button className="navbar-toggler" type="button" data-toggle="collapse"
+                                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation"&gt;
+                                    &lt;span className="ion-navicon" /&gt;
+                                &lt;/button&gt;
+
+                                &lt;div className="collapse navbar-collapse" id="navbarSupportedContent"&gt;
+                                    &lt;div className="menu-main-menu-container"&gt;
+                                        &lt;TopMenuBar active={props.activeMenu} headMenuItems={topMenuBarItems} /&gt;
+                                    &lt;/div&gt;
+                                   
+                                &lt;/div&gt;
+                                
+                                &lt;div className="sub-main"&gt;
+                                    &lt;nav aria-label="breadcrumb"&gt;
+                                        { props.buttonSection }
+                                    &lt;/nav&gt;
+                                 &lt;/div&gt;
+                            &lt;/nav&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/header&gt;
+        &lt;/&gt;
+    );
+};
+                        </pre>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section id="basic-fonts">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h2 class="heading-title">For Changing Fonts</h2>
+                        <p> You can add/change the site font, from all fonts used from <a href="https://www.google.com/fonts"> Google Web Font Services,</a> with the one that suits you the best. You can find the font link in top of the <span class="atv">Style.css</span> in all HTML file. See example below:</p>
+                        <pre class="prettyprint lang-html linenums">
+
+&lt;!-- Main style.css --&gt;
+| - xamin-react
+    | - static
+        - style.css  // file content
+
+        &lt;!-- Google fonts --&gt;
+        @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:300,400,500,600,700,800,900");
+                        </pre>
+                        <br>
+                        <p>To include new font you can simply add another link like this: </p>
+                        <pre class="prettyprint lang-html linenums">
+
+&lt;!-- Main style.css --&gt;
+| - xamin-react
+    | - static
+        - style.css  // file content
+
+        &lt;!-- Raleway font --&gt;
+        @import "https://fonts.googleapis.com/css?family=Raleway:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i";
+
+        &lt;!-- Open Sans font --&gt;
+        @import "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800";
+                        </pre>
+                        <br>
+                        <p>In order to change the fonts, you will need to edit the above links with your custom font, You can easily use <a href="https://www.google.com/fonts"> Google Web Font Services</a> if you plan to use a Google Font or remove it completely. If you plan to use a self hosted font, here is an Example of using <a href="https://css-tricks.com/snippets/css/using-font-face/">Self Hosted Fonts</a></p>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section id="section-title">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h2 class="heading-title">For Section Title</h2>
+                        <p>Use this sample code for page section title to keep the consistency in the title. </p>
+                        <pre class="prettyprint lang-html linenums overflow-auto">
+import React from 'react';
+
+const Index = (props) =&gt; {
+    return (
+        &lt;&gt;
+            &lt;div className={props.className} &gt;
+                &lt;span className={props.spanclass}&gt;{props.link}&lt;/span&gt;
+                &lt;h2&gt;{ props.title }&lt;/h2&gt;
+                &lt;p&gt;{ props.subTitle }&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/&gt;
+    );
+}
+
+export default Index;
+                            </pre>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section id="basic-padding">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h2 class="heading-title">For section padding</h2>
+                        <p>You can add this helper class to set section <span class="atv">padding top 100px</span> and <span class="atv">padding bottom 100px</span>.
+                           <br> Add <span class="atv">iq-ptb-100</span> class in <span class="atv">section</span> tag. See example below:
+                        </p>
+                        <pre class="prettyprint lang-html linenums overflow-auto">
+&lt;section className=&quot;... iq-pt-100&quot;&gt;</p>
+[YOUR CONTENT]<p>&lt;/section&gt;</pre><p> </p>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section id="basic-background">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h2 class="heading-title">For Background color</h2>
+                        <p>You can use color in the background. simply add <span class="atv"> .iq-bg-hover</span> (or any color you want) class where you want to use. See example below: </p>
+                        <pre class="prettyprint lang-html linenums overflow-auto">
+&lt;div className=&quot;.iq-bg-hover&quot;&gt;
+    [YOUR CONTENT]&lt;/div&gt;</pre>
+                        <p> <span class="label label-danger">Note</span> We include 4 background color helper class in our template <span class="atv">.iq-bg-hover</span> You can add unlimited background color class according to your needs </p>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section id="basic-separator">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h2 class="heading-title">For Separator</h2>
+                        <p>Add this tag in your HTML code to add Separator line. Simply add <span class="atv"> hr </span> tag where you want to add the line. See example below:</p>
+                        <pre class="prettyprint lang-html linenums overflow-auto"><p>...</p>
+                            <p> [SECTION 1 CONTENT]</p>
+                            <p>...</p>
+                            <p>&lt;/section&gt; &lt;!--Section 1 End--&gt;</p>
+                            <p>  &lt;hr/&gt;</p>
+                            <p>&lt;section&gt; &lt;!--Section 2 Start--&gt;</p>
+                            <p>...</p>
+                            <p> [SECTION 2 CONTENT]</p>
+                            <p>...</p></pre>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section id="basic-components">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h2 class="heading-title">Bootstrap Components</h2>
+                        <p>
+                            Bootstrap has wonderfull documentation on the following components::
+                        </p>
+                        <ul>
+                           <li>
+                              <a href="https://getbootstrap.com/docs/4.1/utilities/text/#text-alignment" target="black">Text Alignments</a>
+                           </li>
+                           <li>
+                              <a href="https://getbootstrap.com/docs/4.1/components/badge/" target="black">Badges</a>
+                           </li>
+                           <li>
+                              <a href="https://getbootstrap.com/docs/4.1/components/carousel/" target="black">Carousel</a>
+                           </li>
+                           <li>
+                              <a href="https://getbootstrap.com/docs/4.1/layout/grid/">Columns</a>
+                           </li>
+                           <li>
+                              <a href="https://getbootstrap.com/docs/4.1/components/buttons/" target="black">Buttons</a>
+                           </li>
+                           <li>
+                            <a href="https://getbootstrap.com/docs/4.1/components/accordion/" target="black">Accordion</a>
+                         </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!--<section id="basic-form">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h2 class="heading-title">For Contact Form</h2>
+                        <p>Replace dummy email with your email in contact-form.php to get your contact-form working</p>
+                        <pre class="prettyprint lang-html linenums overflow-auto"><p>$ToEmail = 'demo123@gmail.com';</p></pre>
+                        <br>
+                        <p><em>Note: </em>Don't forget to change dummy <b>site-key</b> with your site-key to get your google captcha working</p>
+                     </div>
+                  </div>
+               </div>
+            </section>-->
+            <section id="basic-cards">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2 class="heading-title">Card styles</h2>
+                            <p>We have build different types of stylish card components. And these are the some examples of cards</p>
+                        </div>
+                    </div>
+                    <!-- <div class="row">
+                        <div class="col-sm-12">
+                            <h4 >Card-style1</h4>
+                        </div>
+                        <div class="col-sm-4 d-flex ">
+                            <div class="justify-content-center align-self-center">
+                                <img src="./images/example-images/card-style1.png" class="img-fluid" alt="card-style1.png">
+                            </div>
+                        </div>
+                        <div class="col-sm-7 ">
+                            <h6>Source code</h6>
+                            <pre class="prettyprint lang-html linenums overflow-auto">
+&lt;app-card-style1&gt;
+    &lt;div cardMedia&gt;
+        &lt;img class="img-fluid center-block" src="assets/images/blog/01.jpg" alt="#"&gt;
+    &lt;/div&gt;
+    &lt;div cardTitle&gt;
+        &lt;a href="javascript:void(0)"&gt;
+        &lt;h5 class="iq-tw-6 iq-mb-10"&gt;
+            Blogpost With Image
+        &lt;/h5&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div cardBody&gt;
+        &lt;p&gt;
+            Quae laboriosam sunt consectetur, assumenda provident lorem ipsum
+            dolor sit amet, consectetur adipisicing elit. hic perspiciatis.
+        &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div cardFooter&gt;
+        &lt;ul class="list-inline"&gt;
+            &lt;li class="list-inline-item"&gt;
+                &lt;a href="javascript:void(0)"&gt;
+                &lt;i class="fa fa-user-circle" aria-hidden="true"&gt;
+                &lt;/i&gt; Tom Herry&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="list-inline-item"&gt;
+                &lt;a href="javascript:void(0)"&gt;
+                    &lt;i class="fa fa-calendar" aria-hidden="true"&gt;&lt;/i&gt; 12 Aug 2017
+                &lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="list-inline-item"&gt;&lt;a href="javascript:void(0)"&gt;&lt;i class="fa fa-comment-o" aria-hidden="true"&gt;&lt;/i&gt; 5&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/app-card-style1&gt;
+                            </pre>
+                        </div>
+                    </div> -->
+                   
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h4 >Card-style1</h4>
+                        </div>
+                        <div class="col-sm-4 d-flex ">
+                            <div class="justify-content-center align-self-center pl-4">
+                                <img src="./images/xamin/landing-6-1-card.png" class="img-fluid" alt="card-style3.png">
+                            </div>
+                        </div>
+                        <div class="col-sm-7 ">
+                            <h6>Source code</h6>
+                            <pre class="prettyprint lang-html linenums overflow-auto">
+import React from 'react';
+
+const Index = (props) =&gt; {
+
+    return (
+        &lt;&gt;
+                    &lt;div className= {props.imgClass}&gt;
+                        &lt;img src= {props.media} alt="card" /&gt;
+                    &lt;/div&gt;
+                    &lt;h5 className="mb-2"&gt;{ props.title }&lt;/h5&gt;
+                    &lt;p className="mb-0"&gt;{ props.text }&lt;/p&gt;
+        &lt;/&gt;
+    );
+};
+export default Index;
+
+                            </pre>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h4 >Card-style2</h4>
+                        </div>
+                        <div class="col-sm-4 d-flex ">
+                            <div class="justify-content-center align-self-center pl-4">
+                                <img src="./images/xamin/datanalyticCard.png" class="img-fluid" alt="card-style3.png">
+                            </div>
+                        </div>
+                        <div class="col-sm-7 ">
+                            <h6>Source code</h6>
+                            <pre class="prettyprint lang-html linenums overflow-auto">
+import React from 'react';
+
+const Index = (props) =&gt; {
+
+    return (
+        &lt;&gt;
+            &lt;div className="service-box d-inherit p-4 my-3 wow fadeInUp text-left"&gt;
+                &lt;img src={ props.media } className="fancy-list-img" alt="#" /&gt;
+                &lt;div className="service-detail align-self-center"&gt;
+                    { props.children }
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+        &lt;/&gt;
+    );
+};
+
+export default Index;
+
+                            </pre>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h4 >Card-style4</h4>
+                        </div>
+                        <div class="col-sm-4 d-flex ">
+                            <div class="justify-content-center align-self-center pl-4">
+                                <img src="./images/xamin/card.png" class="img-fluid" alt="card-style3.png">
+                            </div>
+                        </div>
+                        <div class="col-sm-7 ">
+                            <h6>Source code</h6>
+                            <pre class="prettyprint lang-html linenums overflow-auto">
+import React from 'react';
+
+const Index = (props) =&gt; {
+
+    return (
+        &lt;&gt;
+            &lt;div className={"xamin-services  mb-0 wow fadeInUp text-"+props.textClass}&gt;
+                &lt;div className="services-detail"&gt;
+                    { props.image ? (&lt;img src={props.image} alt="img"/&gt;) : ''}
+                    &lt;h4 className="mb-1"&gt;{props.title}&lt;/h4&gt;
+                    &lt;p className="mb-0"&gt;{props.description}&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/&gt;
+    );
+};
+
+export default Index;
+
+                            </pre>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h4 >Card-style12</h4>
+                        </div>
+                        <div class="col-sm-4 d-flex ">
+                            <div class="justify-content-center align-self-center">
+                                <img src="./images/xamin/contactus.png" class="img-fluid" alt="card-style2.png">
+                            </div>
+                        </div>
+                        <div class="col-sm-7 ">
+                            <h6>Source code</h6>
+                            <pre class="prettyprint lang-html linenums overflow-auto">
+import React from 'react';
+
+const Index = (props) =&gt; {
+
+    return (
+        &lt;&gt;
+                    &lt;div class="col-sm-4"&gt;
+                        &lt;div class="consult-services wow fadeInUp contact-detail text-center"&gt;
+                        &lt;div class="circle-effect"&gt; &lt;i aria-hidden="true" class="fa fa-map-marker"&gt;&lt;/i&gt; &lt;/div&gt;
+                        &lt;h4 class="mb-2"&gt;{props.location}&lt;/h4&gt;
+                        &lt;p class="mb-0"&gt;{props.text}&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+        &lt;/&gt;
+    );
+};
+
+export default Index;
+                                
+
+                            </pre>
+                        </div>
+                    </div>
+                   
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h4 >Card-style15</h4>
+                        </div>
+                        <div class="col-sm-4 d-flex ">
+                            <div class="justify-content-center align-self-center">
+                                <img src="./images/xamin/landing-page8.png" class="img-fluid" alt="card-style2.png">
+                            </div>
+                        </div>
+                        <div class="col-sm-7 ">
+                            <h6>Source code</h6>
+                            <pre class="prettyprint lang-html linenums overflow-auto">
+import React from 'react';
+
+const Index = (props) =&gt; {
+
+    return (
+        &lt;&gt;
+        &lt;div class="col-lg-4 col-md-6 "&gt;
+            &lt;div class={props.className}&gt;
+                &lt;div class="service-box-icon"&gt;
+                    &lt;img src={props.images} alt="fancybox" /&gt;
+                &lt;/div&gt;
+                &lt;div class="service-box-detail"&gt;
+                    &lt;h4 class="mb-2"&gt;{props.name}&lt;/h4&gt;
+                    &lt;p&gt;{props.description}&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;/&gt;
+    );
+};
+
+export default Index;
+  
+                            </pre>
+                        </div>
+                    </div>
+                   
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h4 >Card-style18</h4>
+                        </div>
+                        <div class="col-sm-4 d-flex ">
+                            <div class="justify-content-center align-self-center">
+                                <img src="./images/xamin/landing-page-7.png" class="img-fluid" alt="card-style2.png">
+                            </div>
+                        </div>
+                        <div class="col-sm-7 ">
+                            <h6>Source code</h6>
+                            <pre class="prettyprint lang-html linenums overflow-auto">
+import React from 'react';
+
+const Index = (props) =&gt; {
+
+    return (
+        &lt;&gt;
+            
+            &lt;div class="fancy_service style2 wow fadeInUp  text-left"&gt;
+                    &lt;div class="bg_img"&gt; 
+                        &lt;img class="bg_img-img" src="./static/assets/images/fancybox/bg-7-2.png" alt="fancybox" /&gt;
+                    &lt;/div&gt;
+                    &lt;div class="fancy_block"&gt;
+                        &lt;div class="fancy-info"&gt;
+                            &lt;h4 class="mt-4 mb-3 title"&gt;{props.title}&lt;/h4&gt;
+                            &lt;p class="text-dark"&gt;{props.text}&lt;/p&gt;
+                            &lt;a class="button blue-btn" href="#"&gt;&lt;span class="btn-effect"&gt; Find Out More&lt;/span&gt;&lt;/a&gt;
+                        &lt;/div&gt;
+                        &lt;div class="fancy_img"&gt;
+                            &lt;img src={props.fancy_img} alt="fancybox" /&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            
+        &lt;/&gt;
+    );
+};
+
+export default Index;
+                                
+                                
+
+                            </pre>
+                        </div>
+                    </div>
+                        
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h4 >PricingCardStyle</h4>
+                        </div>
+                        <div class="col-sm-4 d-flex ">
+                            <div class="justify-content-center align-self-center">
+                                <img src="./images/xamin/pricingcard.png" class="img-fluid" alt="card-style2.png">
+                            </div>
+                        </div>
+                        <div class="col-sm-7 ">
+                            <h6>Source code</h6>
+                            <pre class="prettyprint lang-html linenums overflow-auto">
+import React from 'react';
+
+const Index = (props) =&gt; {
+
+    return (
+        &lt;&gt;
+            &lt;div class="iq-pricing "&gt;
+                &lt;div class="priceing-title "&gt;
+                    &lt;h2&gt;{props.price}&lt;span&gt;/Month&lt;/span&gt;&lt;/h2&gt;
+                    &lt;p class="mb-0"&gt;&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="priceing-description "&gt;
+                    &lt;h4 class="title mb-3"&gt;{props.heading}&lt;/h4&gt;
+                    &lt;h5 class="subtitle mb-3"&gt;{props.subheading}&lt;/h5&gt;
+                            {props.children}
+                &lt;/div&gt;
+                &lt;/div&gt;
+        &lt;/&gt;
+    );
+};
+export default Index;
+                            </pre>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h4 >PartnerCardStyle</h4>
+                        </div>
+                        <div class="col-sm-4 d-flex ">
+                            <div class="justify-content-center align-self-center">
+                                <img src="./images/xamin/partner.png" class="img-fluid" alt="card-style2.png">
+                            </div>
+                        </div>
+                        <div class="col-sm-7 ">
+                            <h6>Source code</h6>
+                            <pre class="prettyprint lang-html linenums overflow-auto">
+import React from 'react';
+
+const Index = (props) =&gt; {
+
+    return (
+        &lt;&gt;
+            &lt;div class={props.mainClass + " wow fadeInUp"} style={{visibility: "visible", animationName: "fadeInUp"}}&gt;
+                &lt;div class={props.imgClass}&gt;
+                    &lt;img src={props.img} alt="fancybox" /&gt;
+                &lt;/div&gt;
+                &lt;div class={props.detailClass}&gt;
+                    &lt;h6 class="mb-1"&gt;{props.heading}&lt;/h6&gt;
+                    &lt;p class="mb-0"&gt;{props.text}&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt; 
+        &lt;/&gt;
+    );
+};
+
+export default Index;
+                                
+                            </pre>
+                        </div>
+                    </div>
+                  <!--Card-Style-11-->
+                
+<!--End Card-style-11-->
+<!--                     <div class="row">
+                      <div class="col-sm-12">
+                          <h4 >Card-style9</h4>
+                      </div>
+                      <div class="col-sm-4 d-flex ">
+                          <div class="justify-content-center align-self-center p-4">
+                              <img src="./images/example-images/card-style9.png" class="img-fluid" alt="card-style8.png">
+                          </div>
+                      </div>
+                      <div class="col-sm-7 ">
+                          <h6>Source code</h6>
+                          <pre class="prettyprint lang-html linenums overflow-auto">
+
+&lt;app-card-style9&gt;
+  &lt;img src="./assets/images/icon/01.png" class="img-fluid" alt="" cardMedia&gt;
+  &lt;h4 cardTitle&gt;Fully Support&lt;/h4&gt;
+  &lt;p cardBody&gt;There are many variations of passages of Lorem Ipsum available, but the have suffered in some form.&lt;/p&gt;
+&lt;/app-card-style9&gt;
+                          </pre>
+                      </div>
+                  </div> -->
+
+                    
+
+                </div>
+            </section>
+             <section id="basic-header">
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-sm-12">
+                             <h2 class="heading-title">Header style</h2>
+                             <p>We have build different types of stylish header components. And these are the some examples of header</p>
+                         </div>
+                     </div>
+
+                     <div class="row">
+                         <div class="col-sm-12 ">
+                             <h6>Source code</h6>
+                             <pre class="prettyprint lang-html linenums overflow-auto">
+| - xamin-react
+    | - pages
+        | - landing-page1
+        	| - index.js
+
+
+        	//Import logo image
+
+        	import logoImg from '../../static/assets/images/logo-footer.png';
+
+   
+                            </pre>
+                         </div>
+                         <div class="col-sm-12">
+                             <h4>Header-style1</h4>
+                         </div>
+                         <div class="col-sm-12">
+                             <div class="justify-content-center align-self-center p-4">
+                                 <img src="./images/xamin/header1.png" class="img-fluid" alt="card-style1.png">
+                             </div>
+                         </div>
+                         <div class="col-sm-12 ">
+                             <h6>Source code</h6>
+                             <pre class="prettyprint lang-html linenums overflow-auto">
+                                class Index extends React.Component {
+                                
+                                    constructor(props) {
+                                        super(props);
+                                
+                                        this.state = {
+                                            activeMenu:['#iq-home','/landing-page1']
+                                        };
+                                    }
+                                    componentDidMount(props) {
+                                
+                                        setTimeout( () =&gt; {
+                                            index();
+                                        }, 3000);
+                                
+                                    }
+                                    render() {
+                                        return (
+                                            &lt;&gt;
+                                                {/* header section*/}
+                                                &lt;HeaderStyle
+                                                    className={"style-one"}
+                                                    activeMenu ={this.state.activeMenu}
+                                                    logoImg={logoImg}
+                                                    buttonSection={(&lt;a className={"button bt-black pull-right"} href="#"&gt;Download&lt;/a&gt;)}
+                                                /&gt;
+                                            &lt;/&gt;
+                                        );
+                                    }
+                                }
+                                export default Index;
+<!--                      <div class="row">
+                         <div class="col-sm-12">
+                             <h4>Header-style2</h4>
+                         </div>
+                         <div class="col-sm-12 ">
+                             <div class="justify-content-center align-self-center p-4">
+                                 <img src="./images/example-images/header-style.png" class="img-fluid" alt="card-style1.png">
+                             </div>
+                         </div>
+                         <div class="col-sm-12 ">
+                             <h6>Source code</h6>
+                             <pre class="prettyprint lang-html linenums overflow-auto">
+&lt;app-header-style1 [logoImg]="navLogo" className="" [navItemList]="navItems"&gt;
+  &lt;a href="#" class="button bt-black pull-right" navContent&gt;Download&lt;/a&gt;
+&lt;/app-header-style1&gt;
+                            </pre>
+                         </div>
+                     </div> -->
+
+                 </div>
+             </section>
+
+             <section id="basic-footer">
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-sm-12">
+                             <h2 class="heading-title">Footer</h2>
+                             <p>We have build different types of stylish footer components. And these are the some examples of footer</p>
+                         </div>
+                     </div>
+
+                     <div class="row">
+                         <div class="col-sm-12">
+                             <h4>Footer</h4>
+                         </div>
+                         <div class="col-sm-12">
+                             <div class="justify-content-center align-self-center p-4">
+                                 <img src="./images/xamin/footer.png" class="img-fluid" alt="footer-style1.png">
+                             </div>
+                         </div>
+                         <div class="col-sm-6 ">
+                             <h6>Source code</h6>
+                             <pre class="prettyprint lang-html linenums overflow-auto" style="max-height: 500px;overflow-y: scroll">
+&lt;!--Declare variable in index.js file --&gt;
+
+| - xamin-react
+    | - components
+        | - landing-page1
+   	        | - footer
+        		| - index.js
+
+ constructor(props) {
+        super(props);
+
+        this.state = {
+            footerText: [
+                {
+                    icon: true,
+                    iconClass: 'fa fa-phone',
+                    text: '+0123456789'
+                },
+                {
+                    icon: true,
+                    iconClass: 'fa fa-envelope',
+                    text: 'support@iqnonicthemes.com'
+                },
+                {
+                    icon: true,
+                    iconClass: 'fa fa-home',
+                    text: '1234 North Avenue Luke Lane, South Bend, IN 360001'
+                }
+            ],
+            footerHome: [
+                {
+                    section: [
+                        {
+                            href: '#',
+                            title: 'Home'
+                        },
+                        {
+                            href: '#',
+                            title: 'Blog'
+                        },
+                        {
+                            href: '#',
+                            title: 'Careers'
+                        },
+                        {
+                            href: '#',
+                            title: 'Clients'
+                        }, 
+                        {
+                            href: '#',
+                            title: 'Service'
+                        }
+                    ]
+                },
+                
+            ],
+            footerAbout: [
+                {
+                    section: [
+                        {
+                            href: '#',
+                            title: 'Home'
+                        },
+                        {
+                            href: '#',
+                            title: 'Blog'
+                        },
+                        {
+                            href: '#',
+                            title: 'Careers'
+                        },
+                        {
+                            href: '#',
+                            title: 'Clients'
+                        }, 
+                        {
+                            href: '#',
+                            title: 'Service'
+                        }
+                    ]
+                },
+                
+            ],
+        
+        }
+
+    }</pre>
+                         </div>
+                         <div class="col-sm-6 ">
+                             <h6>Source code</h6>
+                             <pre class="prettyprint lang-html linenums overflow-auto" style="max-height: 500px;overflow-y: scroll">
+render() {
+    const { footerText, footerHome, footerAbout } = this.state;
+    return (
+        &lt;&gt;
+            &lt;FooterMain className={"footer-one iq-bg-dark iq-over-dark-90"}&gt;
+                &lt;div className="container"&gt;
+                        &lt;div className="footer-top"&gt;
+
+                                
+                            &lt;div className="row"&gt;
+                                &lt;div className="col-lg-4 col-md-6 col-sm-6 "&gt;
+                                    &lt;FooterLogo
+                                        sectionImage={ './static/assets/images/logo.png' }
+                                        sectionText={"It is a long established fact that a reader will be distracted by the readable content."}
+                                        
+                                    /&gt;
+                                &lt;/div&gt;
+                                &lt;div className="col-lg-2 col-md-6 col-sm-6 mt-4 mt-lg-0 mt-md-0"&gt;
+                                    &lt;FooterLinks title={"Menu"} content={footerHome}  /&gt;
+                                &lt;/div&gt;
+                            
+
+                                &lt;div className="col-lg-2 col-md-6 col-sm-6 mt-lg-0 mt-4"&gt;
+                                    &lt;FooterLinks title={"About us"} content={footerAbout}  /&gt;
+                                &lt;/div&gt;
+
+                                &lt;div className="col-lg-4 col-md-6 col-sm-6 mt-lg-0 mt-4"&gt;
+                                    &lt;FooterAddress  addressContent={footerText} addressTitle={"Contact Us"} /&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;footer&gt;
+                    &lt;div className="copyright-footer"&gt;
+                            &lt;div className="pt-3 pb-3"&gt;
+                                &lt;div className="row flex-row-reverse justify-content-between"&gt;
+                                    &lt;div className="col-lg-12 col-md-12 text-lg-center text-md-center text-center"&gt; &lt;span className="copyright"&gt;Copyright 2019 &lt;a href="index.html"&gt;Xamin&lt;/a&gt; All Rights Reserved.&lt;/span&gt; &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/footer&gt;
+            &lt;/FooterMain&gt;
+            
+        &lt;/&gt;
+    );
+}
+                             </pre>
+                         </div>
+                     </div>
+
+                     
+                     <!--end-->
+                     <!-- <div class="row">
+                         <div class="col-sm-12">
+                             <h4>Footer-style3</h4>
+                         </div>
+                         <div class="col-sm-12 ">
+                             <div class="justify-content-center align-self-center p-4">
+                                 <img src="./images/example-images/footer-style3.png" class="img-fluid" alt="footer-style3.png">
+                             </div>
+                         </div>
+                         <div class="col-sm-12 ">
+                             <h6>Source code</h6>
+                             <pre class="prettyprint lang-html linenums overflow-auto">
+&lt;!-- Declare variable --&gt;
+public footerText = '© Copyright 2018 Xamin Developed by <b>iqonicthemes</b>.';
+
+  public socialNavItems: any = [
+    { href: 'javascript:void(0)', icon: '&lt;i class="fab fa-twitter"&gt;&lt;/i&gt;' },
+    { href: 'javascript:void(0)', icon: '&lt;i class="fab fa-facebook-f"&gt;&lt;/i&gt;' },
+    { href: 'javascript:void(0)', icon: '&lt;i class="fab fa-google"&gt;&lt;/i&gt;' },
+    { href: 'javascript:void(0)', icon: '&lt;i class="fab fa-github"&gt;&lt;/i&gt;' },
+  ];
+
+&lt;!-- Html template --&gt;
+&lt;app-footer-style1 [footerText]="footerText" [socialNavItemList]="socialNavItems"&gt;&lt;/app-footer-style1&gt;</pre>
+                         </div>
+                     </div> -->
+
+                 </div>
+             </section>
+
+            <section id="basic-support">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h2 class="heading-title">Browser Support</h2>
+                        <p>Supports all major Browsers like Google Chrome, Mozilla Firefox, Safari, Opera, Internet Explorer 9 and above.</p>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section id="basic-log">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h2 class="heading-title">Change Log</h2>
+                        <h4>Version 1.0</h4>
+                        <p>- Initial Release</p>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section id="basic-source">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h2 class="heading-title">Source & Credits</h2>
+                        <p>All images and videos are for preview purposes only and are not included in the download files. Images are of copyrights under Creative Commons CC0.</p>
+                        <br>
+                        <h4>Images</h4>
+                        <ul>
+                           <li>bigstockphoto <a href="https://www.bigstockphoto.com/">bigstockphoto</a></li>
+                           <li>Pexels <a href="https://www.pexels.com/">Pexels</a></li>
+                           <li>freepik <a href="http://www.freepik.com/">freepik</a></li>
+                           <li>pixabay <a href="https://pixabay.com/">pixabay</a></li>
+                        </ul>
+                        <br>
+                        <br>
+                        <h4>Scripts</h4>
+                        <ul>
+                           <li><a href="https://reactjs.org/">React</a></li>
+                           <li><a href="https://nextjs.org/">Nextjs</a></li>
+                           <li><a href="https://jquery.com/">Jquery</a></li>
+                            <li><a href="https://www.npmjs.com/package/jarallax">Parallax</a></li>
+                            <li><a href="http://www.owlcarousel.owlgraphic.com/">Owl Carousel 2</a></li>
+                           <li><a href="http://dimsemenov.com/plugins/magnific-popup/">Magnific Popup</a></li>
+                           <li><a href="https://github.com/bas2k/jquery.appear/">Jquery appear</a></li>
+                           <li><a href="https://github.com/mhuggins/jquery-countTo">Counter</a></li>
+                           <li><a href="https://github.com/glix/jQuery-Plugins/tree/master/Modern-Circular-jQuery-Countdown-Timer-Plugin-Final-Countdown">Countdown</a></li>
+                        </ul>
+                        <br>
+                        <br>
+                        <h4>CSS & Fonts</h4>
+                        <ul>
+                           <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+                           <li><a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a></li>
+                           <li><a href="http://ionicons.com/#cdn">ionicons</a></li>
+                           <li><a href="https://www.google.com/fonts">Google Fonts</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section id="rate-item">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h2 class="heading-title">How to rate this Template</h2>
+                        <p>Please do rate us if you like our theme and support. We look forward to your valuable review. For rating visit: <a href="http://themeforest.net/downloads">http://themeforest.net/downloads</a> and find "Rate this item" below the download button and rate out the theme. Advance Thanks in Prospect!<br>
+                        </p>
+                        <div class="rate-img"> <img src="images/xamin_html.png" alt="logo"> </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <footer class="footer">
+            <div class="container">
+            <div class="row">
+            <div class="col-sm-12">
+            <p>Designed and built with love by <a href="http://iqonic.design">Iqonic Design</a></p>
+            </div>
+            </div>
+            </div>
+            </footer>
+            </div>
+         </div>
+         <!-- end main -->
+      </div>
+      <!-- end wrapper -->
+      <!-- END SITE -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <script src="js/prettify.js"></script>
+      <script src="js/plugins.js"></script>
+   </body>
+</html>
