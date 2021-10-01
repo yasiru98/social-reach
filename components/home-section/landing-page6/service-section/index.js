@@ -145,37 +145,37 @@ class Index extends React.Component {
                         <div className="col-md-6 tab-content">
                             <div id="tab-alerts" className="tab-pane fade active show">
                                 <div className="xamin-right-img-wm">
-                                    <img width="863" height="528" src="./static/assets/images/services/13.png" className="attachment-full"  sizes="100vw" />
+                                    <img width="863" height="528" src="./static/assets/images/features/alerts.jpg" className="attachment-full"  sizes="100vw" />
                                 </div>
                         </div>
                         <div id="tab-mentions-feed" className="tab-pane fade">
                             <div className=" xamin-right-img-wm">
-                                    <img width="863" height="528" src="./static/assets/images/services/14.png" className="attachment-full"  sizes="100vw" />
+                                    <img width="650" height="" src="./static/assets/images/features/mentions-feed.png" className="attachment-full"  sizes="" />
                             </div>
                         </div>
                         <div id="tab-mention-analysis" className="tab-pane fade">
                             <div className=" xamin-right-img-wm">
-                                    <img width="863" height="528" src="./static/assets/images/services/13.png" className="attachment-full"  sizes="100vw" />
+                                    <img width="863" height="528" src="./static/assets/images/features/sources-by-mentions.jpg" className="attachment-full"  sizes="100vw" />
                             </div>
                         </div>
                         <div id="tab-sentiment-analysis" className="tab-pane fade">
                             <div className=" xamin-right-img-wm">
-                                    <img width="863" height="528" src="./static/assets/images/services/14.png" className="attachment-full"  sizes="100vw" />
+                                    <img width="863" height="528" src="./static/assets/images/features/sentiment-analysis.jpg" className="attachment-full"  sizes="100vw" />
                             </div>
                         </div>    
                         <div id="tab-keyword-clouds" className="tab-pane fade">
                             <div className=" xamin-right-img-wm">
-                                    <img width="863" height="528" src="./static/assets/images/services/13.png" className="attachment-full"  sizes="100vw" />
+                                    <img width="663" height="228" src="./static/assets/images/features/word-cloud.jpg" className="attachment-full" sizes="100vw"  />
                             </div>
                         </div>
                         <div id="tab-social-listening-reporting" className="tab-pane fade">
                             <div className=" xamin-right-img-wm">
-                                    <img width="863" height="528" src="./static/assets/images/services/14.png" className="attachment-full"  sizes="100vw" />
+                                    <img width="863" height="528" src="./static/assets/images/features/social-media-reporting.jpg" className="attachment-full"  sizes="100vw" />
                             </div>
                         </div>
                         <div id="tab-social-media-reporting" className="tab-pane fade">
                             <div className=" xamin-right-img-wm">
-                                    <img width="863" height="528" src="./static/assets/images/services/14.png" className="attachment-full"  sizes="100vw" />
+                                    <img width="863" height="528" src="./static/assets/images/features/dashboard.jpg" className="attachment-full"  sizes="100vw" />
                             </div>
                         </div>
                         

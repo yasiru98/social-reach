@@ -109,7 +109,7 @@ const topMenuBarItems = [
         
     },
     {
-        href: '#our-service',
+        href: '#why-social-reach',
         title: 'Why Social Reach?', 
     },{
         href: '#features',
