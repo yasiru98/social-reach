@@ -145,12 +145,12 @@ class Index extends React.Component {
                         <div className="col-md-6 tab-content">
                             <div id="tab-alerts" className="tab-pane fade active show">
                                 <div className="xamin-right-img-wm">
-                                    <img width="863" height="528" src="./static/assets/images/features/alerts.jpg" className="attachment-full"  sizes="100vw" />
+                                    <img width="863" height="528" src="./static/assets/images/features/alerts-embed.png" className="attachment-full"  sizes="100vw" />
                                 </div>
                         </div>
                         <div id="tab-mentions-feed" className="tab-pane fade">
                             <div className=" xamin-right-img-wm">
-                                    <img width="650" height="" src="./static/assets/images/features/mentions-feed.png" className="attachment-full"  sizes="" />
+                                    <img width="863" height="528" src="./static/assets/images/features/dash-embeded.png" className="attachment-full"  sizes="" />
                             </div>
                         </div>
                         <div id="tab-mention-analysis" className="tab-pane fade">

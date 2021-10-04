@@ -77,7 +77,7 @@ class Index extends React.Component{
                     data-type="text"
                     data-color="#313e5b"
                     data-rsp_ch="on"
-                    data-xy="x:l,l,l,c;xo:95px,20px,37px,0;yo:211px,146px,40px,46px;"
+                    data-xy="x:l,l,l,c;xo:95px,20px,37px,0;yo:211px,146px,60px,46px;"
                     data-text="s:28,28,40,20;l:65,65,70,55;fw:200;a:inherit,inherit,inherit,center;"
                     data-frame_0="y:-50;"
                     data-frame_1="st:600;sp:1000;sR:600;"
