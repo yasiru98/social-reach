@@ -150,32 +150,32 @@ class Index extends React.Component {
                         </div>
                         <div id="tab-mentions-feed" className="tab-pane fade">
                             <div className=" xamin-right-img-wm">
-                                    <img width="863" height="528" src="./static/assets/images/features/dash-embeded.png" className="attachment-full"  sizes="" />
+                                    <img width="863" height="528" src="./static/assets/images/features/mentions-feed-embeded.png" className="attachment-full"  sizes="100vw" />
                             </div>
                         </div>
                         <div id="tab-mention-analysis" className="tab-pane fade">
                             <div className=" xamin-right-img-wm">
-                                    <img width="863" height="528" src="./static/assets/images/features/sources-by-mentions.jpg" className="attachment-full"  sizes="100vw" />
+                            <img width="863" height="528" src="./static/assets/images/features/mentions-embeded.png" className="attachment-full"  sizes="100vw" />
                             </div>
                         </div>
                         <div id="tab-sentiment-analysis" className="tab-pane fade">
                             <div className=" xamin-right-img-wm">
-                                    <img width="863" height="528" src="./static/assets/images/features/sentiment-analysis.jpg" className="attachment-full"  sizes="100vw" />
+                                    <img width="863" height="528" src="./static/assets/images/features/sentiment-analysis-embeded.png" className="attachment-full"  sizes="100vw" />
                             </div>
                         </div>    
                         <div id="tab-keyword-clouds" className="tab-pane fade">
                             <div className=" xamin-right-img-wm">
-                                    <img width="663" height="228" src="./static/assets/images/features/word-cloud.jpg" className="attachment-full" sizes="100vw"  />
+                                    <img width="863" height="528" src="./static/assets/images/features/word-cloud-embeded.png" className="attachment-full" sizes="100vw"  />
                             </div>
                         </div>
                         <div id="tab-social-listening-reporting" className="tab-pane fade">
                             <div className=" xamin-right-img-wm">
-                                    <img width="863" height="528" src="./static/assets/images/features/social-media-reporting.jpg" className="attachment-full"  sizes="100vw" />
+                                    <img width="863" height="528" src="./static/assets/images/features/listening-report-embeded.png" className="attachment-full"  sizes="100vw" />
                             </div>
                         </div>
                         <div id="tab-social-media-reporting" className="tab-pane fade">
                             <div className=" xamin-right-img-wm">
-                                    <img width="863" height="528" src="./static/assets/images/features/dashboard.jpg" className="attachment-full"  sizes="100vw" />
+                                    <img width="863" height="528" src="./static/assets/images/features/media-report-embeded.png" className="attachment-full"  sizes="100vw" />
                             </div>
                         </div>
                         
